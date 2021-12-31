@@ -19,10 +19,10 @@ export const formatDate = (createdAt) => {
 
 export const getUniqueValues = (data, type) => {
   let unique = data.map((item) => item[type])
-  if (type == 'colors') {
+  if (type === 'colors') {
     unique = unique.flat()
   }
-  if (type == 'services') {
+  if (type === 'services') {
     unique = data.map((item) => item.description[type])
     unique = unique.flat()
   }
