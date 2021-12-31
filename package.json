@@ -48,7 +48,6 @@
   },
   "devDependencies": {
     "netlify-cli": "^3.39.4"
-  },
-  "proxy": "https://hotel-ecommerce-xuanloc-api.herokuapp.com"
+  }
 }
 
