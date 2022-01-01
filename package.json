@@ -18,7 +18,7 @@
     "react-scripts": "4.0.0",
     "stripe": "^8.130.0",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,5 +48,6 @@
   },
   "devDependencies": {
     "netlify-cli": "^3.39.4"
-  }
+  },
+  "proxy": "https://hotel-ecommerce-xuanloc-api.herokuapp.com"
 }
